@@ -1,4 +1,4 @@
-# Python SDK Cookbook
+# KubeMQ Python SDK Cookbook
 
 KubeMQ Python SDK Cookbook
 
