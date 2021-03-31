@@ -51,7 +51,13 @@ Steps:
 2. Unpack the downloaded archive
 3. Run ```kubemq -k {{your key}}``` (A key is needed for the first time only)
 
+## Install Python SDK
 
+Use pip to install kubemq's python sdk:
+
+```
+pip install kubemq
+```
 
 ## Recipes
 
