@@ -2,7 +2,7 @@
 
 KubeMQ Python SDK Cookbook
 
-## Get Started
+## Install KubeMQ Cluster/Server
 
 Every installation method requires a KubeMQ key.
 Please [register](https://account.kubemq.io/login/register) to obtain your KubeMQ key.
