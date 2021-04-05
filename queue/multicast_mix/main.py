@@ -65,7 +65,6 @@ def handle_incoming_error(error_msg):
 
 if __name__ == "__main__":
     cancel_token = ListenerCancellationToken()
-    channel = "queue.a;queue.b;queue.c"
 
     try:
 
@@ -90,7 +89,7 @@ if __name__ == "__main__":
 
     queue = MessageQueue("q1;events:e1;events_store:es1", "python-sdk-cookbook-queues-multicast-mix-client",
                          "localhost:50000")
-    message = create_queue_message("queueName {}".format(channel),
+    message = create_queue_message("queueName"
                                    "some-simple-queue-multicast-mix-message-1".encode('UTF-8'))
 
     try:
